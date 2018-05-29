@@ -7,10 +7,13 @@ This is the **python** implementation of the - [Visual object tracking using ada
 - opencv-python
 
 ## How to use the code
+### Step 1
 ```bash
 python demo.py 
 
 ```
+### Step2
+Use mouse to select the object which needs to be tracked and Press **Enter** to start tracking.
 
 ## Demo
 ![demo](https://github.com/TianhongDai/MOSSE_Object_Tracking/blob/master/examples/surfer.gif)
