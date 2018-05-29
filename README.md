@@ -4,7 +4,7 @@ This is the **python** implementation of the - [Visual object tracking using ada
 
 ## Requirements
 - python - 3.5.2
-- opency-python
+- opencv-python
 
 ## How to use the code
 ```bash
