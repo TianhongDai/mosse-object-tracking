@@ -2,16 +2,8 @@ import numpy as np
 import cv2
 
 # used for linear mapping...
-def linear_mapping(images):
-    max_value = images.max()
-    min_value = images.min()
-
-    parameter_a = 1 / (max_value - min_value)
-    parameter_b = 1 - max_value * parameter_a
-
-    image_after_mapping = parameter_a * images + parameter_b
-
-    return image_after_mapping
+def linear_mapping(img):
+    return (img - img.min()) / (img.max() - img.min())
 
 # pre-processing the image...
 def pre_process(img):
